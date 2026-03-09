@@ -174,7 +174,7 @@ async function main() {
                <rect x="2" y="2" width="16" height="16" rx="1" transform="rotate(45 10 10)"
                  fill="\${fill}" fill-opacity="0.85" stroke="rgba(0,0,0,0.5)" stroke-width="1.2"/>
              </svg>\`,
-      iconSize: [size, size], iconAnchor: [size/2, size/2], popupAnchor: [0, size/2+4]
+      iconSize: [size, size], iconAnchor: [size/2, size/2], popupAnchor: [0, -(size/2+4)]
     });
   }
 
